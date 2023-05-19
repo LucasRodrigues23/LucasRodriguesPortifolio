@@ -1,5 +1,10 @@
 import { styled } from "@/styles/stitches.config"
 
+export const AboutFlex = styled("div", {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-around",
+})
 
 export const AboutImgBox = styled("div", {
     width: "40%",
@@ -17,7 +22,8 @@ export const AboutTextBox = styled("div", {
 
 
 export const AboutImg = styled("img", {
-    maxWidth: "100%",
-    maxHeight: "500px",
-    borderRadius: "4px"
+    width: "450px",
+    height: "450px",
+    borderRadius: "50%",
+    objectFit: "cover",
 });

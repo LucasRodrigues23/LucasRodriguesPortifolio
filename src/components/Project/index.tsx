@@ -33,7 +33,6 @@ export const Project = (): JSX.Element => {
       );
 
       let json = await data.json();
-      json = json.filter((el: ReposType) => el.stargazers_count != 0)
       setRepositories(json);
 
       return json;

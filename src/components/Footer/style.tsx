@@ -1,13 +1,14 @@
 import { styled } from "@/styles/stitches.config";
 import { Container, Flex } from "@/styles/Global";
-import dots from "@/public/static/img/background/dots.svg";
+import backgroundImg from "@/public/static/img/background/new-bg.svg";
 
 export const Footer = styled("footer", {
   backgroundColor: "$grey1",
   padding: "7rem 0",
-  backgroundImage: `url(${dots})`,
+  backgroundImage: `url(${backgroundImg})`,
   backgroundRepeat: "no-repeat",
-  backgroundPosition: "left top 8rem",
+  backgroundPosition: "right",
+  backgroundAttachment: "fixed",
   "& a": {
     margin: "0 !important",
   },
