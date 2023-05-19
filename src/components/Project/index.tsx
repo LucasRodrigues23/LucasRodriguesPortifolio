@@ -19,6 +19,7 @@ interface ReposType {
   description: string;
   html_url: string;
   homepage: string;
+  stargazers_count: number;
 }
 
 export const Project = (): JSX.Element => {
@@ -28,11 +29,11 @@ export const Project = (): JSX.Element => {
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetch(
-        `https://api.github.com/users/${userData.githubUser}/repos?sort=created&direction=desc`
+        `https://api.github.com/users/${userData.githubUser}/repos?sort=starred&direction=desc`
       );
 
-      const json = await data.json();
-
+      let json = await data.json();
+      json = json.filter((el: ReposType) => el.stargazers_count != 0)
       setRepositories(json);
 
       return json;

@@ -19,4 +19,5 @@ export const AboutTextBox = styled("div", {
 export const AboutImg = styled("img", {
     maxWidth: "100%",
     maxHeight: "500px",
+    borderRadius: "4px"
 });

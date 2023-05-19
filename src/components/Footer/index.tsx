@@ -3,7 +3,8 @@ import { Text } from "@/styles/Text";
 import { Footer as FooterWrapper } from "./style";
 import { UserImage } from "@/pages/home/style";
 import { userData } from "@/utils/userData";
-import { FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { AiOutlineArrowUp } from "react-icons/ai"
 import { Button } from "@/styles/Buttons";
 // import { HandEffect } from "../HandEffect";
 
@@ -52,6 +53,14 @@ export const Footer = (): JSX.Element => {
             href={`https://linkedin.com/in/${userData.linkedinUser}`}
           >
             <FaLinkedinIn />
+          </Button>
+          <Button
+            className="back"
+            type="circle"
+            as="a"
+            href={`#header`}
+          >
+            <AiOutlineArrowUp />
           </Button>
         </Flex>
       </Container>

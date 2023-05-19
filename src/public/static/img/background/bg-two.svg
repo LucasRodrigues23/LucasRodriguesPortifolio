@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="138.144mm" height="544.45mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 34516.09 136034.02"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:#373435}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M172.6 116281.85l-172.6 -116281.85 34516.09 19927.89 -95.62 116106.12 -34247.87 -19752.17z"/>
+   </clipPath>
+    <clipPath id="id1">
+     <path d="M172.6 116281.85l-172.6 -116281.85 34516.09 19927.89 -95.62 116106.12 -34247.87 -19752.17z"/>
+    </clipPath>
+    <clipPath id="id2">
+     <path d="M172.6 116281.85l-172.6 -116281.85 34516.09 19927.89 -95.62 116106.12 -34247.87 -19752.17z"/>
+    </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="172.6,116281.85 -0,0 34516.09,19927.89 34420.47,136034.02 "/>
+  <g style="clip-path:url(#id0)">
+   <g id="_2188565564608">
+   </g>
+   <g style="clip-path:url(#id1)">
+    <image x="-49720.1" y="-586.51" width="207900.87" height="138600.56" xlink:href="bg-two_Images\bg-two_ImgID1.png"/>
+   </g>
+   <g style="clip-path:url(#id2)">
+   </g>
+  </g>
+  <polygon class="fil1" points="172.6,116281.85 -0,0 34516.09,19927.89 34420.47,136034.02 "/>
+ </g>
+</svg>

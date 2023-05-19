@@ -35,7 +35,7 @@ export const Home = (): JSX.Element => {
 
   return (
     <main id="home">
-      <Header>
+      <Header id='header'>
         <Container>
           <HeaderContent>
             <Flex>
