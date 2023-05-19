@@ -43,10 +43,15 @@ export const Home = (): JSX.Element => {
                 src={`https://github.com/${userData.githubUser}.png`}
                 alt={userData.nameUser}
                 title={userData.nameUser}
-                width={"48px"}
-                height={"48px"}
+                width={"96px"}
+                height={"96px"}
               />
-              <Text color="grey4">Ola, eu sou {userData.nameUser}</Text>
+              <Text as="h2" type="heading2" color="grey4">
+                Ola, eu sou{" "}
+                <Text as="span" type="heading2" color="brand1">
+                  {userData.nameUser}
+                </Text>{" "}
+              </Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
               Desenvolvedor{" "}
@@ -86,7 +91,7 @@ export const Home = (): JSX.Element => {
       </Header>
       <AboutArea id="about">
         <Container>
-          <Text as="h2" type="heading4" color="grey4">
+          <Text as="h2" type="heading2" color="grey4">
             Sobre mim
           </Text>
           <About />
