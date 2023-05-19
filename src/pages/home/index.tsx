@@ -25,7 +25,7 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectAreaWrapperColumns,
   ProjectsAreaContent,
-  AboutArea,
+  AboutSection,
 } from "./style";
 import { About } from "@/components/About";
 
@@ -89,14 +89,14 @@ export const Home = (): JSX.Element => {
           </HeaderContent>
         </Container>
       </Header>
-      <AboutArea id="about">
+      <AboutSection id="about">
         <Container>
           <Text as="h2" type="heading2" color="grey4">
             Sobre mim
           </Text>
           <About />
         </Container>
-      </AboutArea>
+      </AboutSection>
       <ProjectsArea id="projects">
         <Container>
           <ProjectAreaWrapperColumns>

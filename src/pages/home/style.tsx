@@ -3,7 +3,6 @@ import { Flex } from "@/styles/Global";
 import { Button } from "@/styles/Buttons";
 import { css } from "@stitches/react";
 
-import meIlustration from "@/public/static/img/background/me-ilustration.svg";
 import backgroundImg from "@/public/static/img/background/new-bg.svg";
 
 import dots from "@/public/static/img/background/dots.svg";
@@ -17,11 +16,11 @@ export const Header = styled("header", {
   backgroundAttachment: "fixed",
   borderBottom: "2px solid $grey5",
   "@tablet": {
-    backgroundPosition: "right -10% center",
+    backgroundPosition: "center",
   },
   "@mobile": {
     padding: "9rem 0 6rem 0",
-    backgroundImage: `none`,
+    //backgroundImage: `none`,
   },
   "@mobileLittle": {
     padding: "9rem 0 0 0",
@@ -30,12 +29,12 @@ export const Header = styled("header", {
 
 export const HeaderContent = styled("div", {
   maxWidth: "100%",
-  width: "36rem",
+  width: "62rem",
   display: "flex",
   flexDirection: "column",
   gap: "$2",
   "@tablet": {
-    width: "36rem",
+    width: "62rem",
   },
   "@mobile": {
     width: "100%",
@@ -80,17 +79,17 @@ export const StackSection = styled("div", {
 
 export const StackCards = styled("div", {
   display: "grid",
-  gridTemplateColumns: "1fr 1fr 1fr 1fr",
-  padding: "3rem 0",
-  gap: "6rem",
+  gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr 1fr",
+  padding: "1.5rem 0",
+  gap: "3rem",
   marginTop: "$4",
 
   "@tablet": {
-    gridTemplateColumns: "1fr 1fr 1fr",
+    gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr",
   },
 
   "@mobile": {
-    gridTemplateColumns: "1fr 1fr",
+    gridTemplateColumns: "1fr 1fr 1fr",
   },
 
   "@mobileLittle": {
@@ -101,7 +100,7 @@ export const StackCards = styled("div", {
   },
 });
 
-export const AboutArea = styled("section", {
+export const AboutSection = styled("section", {
   padding: "$section 0",
   backgroundColor: "$grey0",
   backgroundImage: `url(${dots})`,
